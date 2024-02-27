@@ -1,0 +1,8 @@
+org.springframework.context.ApplicationContextInitializer=\
+    earth.rodichev.customspringstarter.init.ConcurrencyApplicationContextInitializer
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+    earth.rodichev.customspringstarter.init.ConcurrencyEnvironmentPostProcessor
+
+org.springframework.boot.diagnostics.FailureAnalyzer=\
+    earth.rodichev.customspringstarter.analyser.ConcurrencyFailureAnalyzer
